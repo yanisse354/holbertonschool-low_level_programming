@@ -1,9 +1,9 @@
 /*
  * File: 5-printf.c
- * Auth: smail mohammed 
+ * Auth: mohammed
  */
 
- #include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Prints "with proper grammar, but the outcome is
