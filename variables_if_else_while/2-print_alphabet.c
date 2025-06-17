@@ -1,21 +1,20 @@
 /*
- * file: 2-print_alphabet.c
- * auth: mohammed
+ * File: 2-print_alphabet.c
+ * Auth: mohammed
  */
 
 #include <stdio.h>
 
 /**
- * main - print the alphabet in lowercase.
+ * main - Prints the alphabet in lowercase.
  *
- * return always: o
+ * Return: Always 0.
  */
-
 int main(void)
 {
 	char letter;
 
-	for (letter = 'a'; letter <= 'z'; letter ++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(letter);
 
 	putchar('\n');
