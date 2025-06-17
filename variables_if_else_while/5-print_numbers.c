@@ -1,6 +1,6 @@
 /*
  * file: 5_print_number.c
- * auth: mohammed 
+ * auth: mohammed
  */
 
 #include <stdio.h>
