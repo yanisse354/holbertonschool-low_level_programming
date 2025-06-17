@@ -1,5 +1,5 @@
 /*
- * file: 5_print_number.c
+ * file: 5-print_number.c
  * auth: mohammed
  */
 
@@ -8,7 +8,7 @@
 /**
  * main - Prints all single digit numbers of base 10 starting from 0.
  *
- * return always 0.
+ * return: always 0.
  */
 
 int main(void)
