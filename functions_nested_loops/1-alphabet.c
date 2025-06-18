@@ -4,6 +4,7 @@
  */
 
 #include <stdio.h>
+#include "main.h"
 
 /**
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line.
@@ -19,12 +20,10 @@ void print_alphabet(void)
 		putchar(letter);
 
 	putchar('\n');
-
 }
 
 int main(void)
 {
-	print_alphabet();
-
-	return 0;
+    print_alphabet();
+    return 0;
 }
