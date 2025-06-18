@@ -1,6 +1,6 @@
 /*
- * File: 0-holberton.c
- * Auth: Brennan D Baraban
+ * File: 0-putchar.c
+ * Auth: mohammed
  *
  */
 
@@ -8,14 +8,14 @@
 #include <unistd.h>
 
 /**
- * main - Prints "putchar" followed by a new line.
+ * main - Prints "_putchar" followed by a new line.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	char *str = "putchar\n";
-	write(1, str, 7);
+	char *str = "_putchar\n";
+	write(1, str, 8);
 
 	return (0);
 }
