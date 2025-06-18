@@ -5,7 +5,7 @@
  */
 
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Prints "putchar" followed by a new line.
@@ -14,14 +14,8 @@
  */
 int main(void)
 {
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+	char *str = "putchar\n";
+	write(1, str, 7);
 
 	return (0);
 }
