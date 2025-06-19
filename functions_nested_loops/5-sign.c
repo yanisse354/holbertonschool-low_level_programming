@@ -9,8 +9,8 @@
  * print_sign - function that prints the sign of a number.
  * @n: The character to be checked.
  *
- * Return: 1 and prints + if n is greater than zero, 
- * 0 and prints 0 if n is zero, 
+ * Return: 1 and prints + if n is greater than zero,
+ * 0 and prints 0 if n is zero,
  * -1 and prints - if n is less than zero.
  */
 
