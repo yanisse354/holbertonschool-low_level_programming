@@ -7,8 +7,10 @@
 
 /**
  * mul - function that multiplies two integers.
+ *@a: the first integer.
+ *@b: the second integer.
  *
- * Return: a * b
+ * Return: The product of a and b.
  */
 
 int mul(int a, int b)
