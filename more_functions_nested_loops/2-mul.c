@@ -7,7 +7,7 @@
 
 /**
  * mul - function that multiplies two integers.
- * 
+ *
  * Return: a * b
  */
 
