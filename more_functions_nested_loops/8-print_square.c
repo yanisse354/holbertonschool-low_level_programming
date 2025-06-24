@@ -7,7 +7,7 @@
 
 /**
  * print_square - function that prints a square, followed by a new line.
- * @n: The number of # characters to be printed.
+ * @size: The size of the square.
  */
 
 void print_square(int size)
@@ -21,7 +21,7 @@ void print_square(int size)
 			for (wid = 0; wid < size; wid++)
 				_putchar('#');
 
-			if (hgt == size -1)
+			if (hgt == size - 1)
 				continue;
 
 			_putchar('\n');
