@@ -7,7 +7,8 @@
 
 /**
  * swap_int - function that swaps the values of two integers.
- * @a,b: values of to integers.
+ * @a: values of to integers.
+ * @b: values of to integers.
  */
 
 void swap_int(int *a, int *b)
