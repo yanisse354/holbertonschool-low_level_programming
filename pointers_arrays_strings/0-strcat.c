@@ -1,5 +1,5 @@
 /*
- * File: 0-strcat.c
+ * File: concaténation de chaînes (_strcat)
  * Auth: mohammed
  */
 
