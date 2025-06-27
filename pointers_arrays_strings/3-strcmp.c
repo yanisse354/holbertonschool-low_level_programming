@@ -9,6 +9,8 @@
  * _strcmp - function that compares two strings.
  * @s1: chaine de caractere n1
  * @s2: chaine de caractere n2
+ *
+ * Return: s1 - s2
  */
 
 int _strcmp(char *s1, char *s2)
