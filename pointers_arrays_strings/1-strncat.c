@@ -1,5 +1,5 @@
 /*
- * File: 1-strncat.c
+ * File: nom du fichier
  * Auth: mohammed
  */
 
