@@ -1,5 +1,5 @@
 /*
- * File: 0-_strcat.c
+ * File: 0-strcat.c
  * Auth: mohammed
  */
 
