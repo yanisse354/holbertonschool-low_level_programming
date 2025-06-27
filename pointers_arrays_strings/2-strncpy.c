@@ -1,5 +1,5 @@
 /*
- * File: 2-strncpy.c
+ * File: nom du fichier
  * Auth: mohammed
  */
 
