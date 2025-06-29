@@ -9,7 +9,7 @@
  * leet - function that encodes a string into 1337.
  * @str: pointer of chain string
  *
- * return: string into 1337
+ * return: A pointer to the encoded string.
  */
 
 char *leet(char *str)
@@ -22,7 +22,7 @@ char *leet(char *str)
 	for (i = 0; str[i] != '\0'; i++)
     	{
         	for (j = 0; t1[j] != '\0'; j++)
-        	{	
+        	{
             		if (str[i] == t1[j])
             		{
                 		str[i] = t2[j];
