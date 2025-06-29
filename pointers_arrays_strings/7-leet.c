@@ -20,15 +20,15 @@ char *leet(char *str)
 	char t2[] = "4433007711";
 
 	for (i = 0; str[i] != '\0'; i++)
-    	{
+	{
         	for (j = 0; t1[j] != '\0'; j++)
-        	{
+		{
             		if (str[i] == t1[j])
-            		{
+			{
                 		str[i] = t2[j];
-            		}
-        	}
-    	}
+			}
+		}
+	}
 
-    return (str);
+	return (str);
 }
