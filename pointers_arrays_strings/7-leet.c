@@ -6,7 +6,7 @@
 #include "main.h"
 
 /**
- * leet - function that encodes a string into 1337.
+ * leet - Encodes a string into 1337.
  * @str: pointer of chain string
  *
  * return: A pointer to the encoded string.
