@@ -9,7 +9,7 @@
  * leet - Encodes a string into 1337.
  * @str: pointer of chain string
  *
- * return: A pointer to the encoded string.
+ * Return: A pointer to the encoded string.
  */
 
 char *leet(char *str)
