@@ -31,10 +31,10 @@ unsigned int _strspn(char *s, char *accept)
 		}
 
 		if (!accept[i])
-			return length;
+			return (length);
 
 		s++;
 	}
 
-	return length;
+	return (length);
 }
