@@ -16,26 +16,25 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-    unsigned int length = 0;
-    int i;
+	unsigned int length = 0;
+	int i;
 
-    while (*s)
-    {
-        for (i = 0; accept[i]; i++)
-        {
-            if (*s == accept[i])
-            {
-                length++;
-                break;
-            }
-        }
+	while (*s)
+	{
+		for (i = 0; accept[i]; i++)
+		{
+			if (*s == accept[i])
+			{
+				length++;
+				break;
+			}
+		}
 
-        if (!accept[i])
-            return length;
+		if (!accept[i])
+			return length;
 
-        s++;
-    }
+		s++;
+	}
 
-    return length;
+	return length;
 }
-
