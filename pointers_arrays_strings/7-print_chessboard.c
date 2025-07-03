@@ -7,7 +7,8 @@
 
 /**
  * print_chessboard - function that prints the chessboard.
- * @(*a)[8]; pointeure vers un tableau 2d
+ * @[8]: tableau 2d
+ * @a: pointeur vers le tableau
  */
 
 void print_chessboard(char (*a)[8])
