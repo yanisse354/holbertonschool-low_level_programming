@@ -17,10 +17,10 @@
  */
 
 /**
- * my_strlen - fonction remplace la commande strlen
- * @str: string
+ * my_strlen - calcule la longueur d'une chaîne de caractères
+ * @str: pointeur vers la chaîne à mesurer
  *
- * Return: len
+ * Return: la longueur de la chaîne (sans le caractère nul)
  */
 
 size_t my_strlen(char *str)
