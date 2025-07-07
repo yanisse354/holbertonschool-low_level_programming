@@ -15,6 +15,16 @@
  * NULL on failure
  */
 
+size_t my_strlen(char *str)
+{
+	size_t len = 0;
+	if (!str)
+		return 0;
+	while (str[len] != '\0')
+		len++;
+	return len;
+}
+
 char *str_concat(char *s1, char *s2)
 {	
 	size_t i = 0;
