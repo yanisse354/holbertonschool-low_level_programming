@@ -15,14 +15,22 @@
  * NULL on failure
  */
 
+/**
+ * my_strlen - fonction remplace la commande strlen
+ * @str: string
+ *
+ * Return: len
+ */
+
 size_t my_strlen(char *str)
 {
 	size_t len = 0;
+
 	if (!str)
-		return 0;
+		return (0);
 	while (str[len] != '\0')
 		len++;
-	return len;
+	return (len);
 }
 
 char *str_concat(char *s1, char *s2)
