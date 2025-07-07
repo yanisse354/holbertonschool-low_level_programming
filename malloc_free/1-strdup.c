@@ -33,6 +33,10 @@ char *_strdup(char *str)
 	}
 
 	copy = malloc(sizeof(char) * (lenght + 1));
+	if (copy == NULL)
+	{
+		return (NULL);
+	}
 
 	for (i = 0; i < lenght; i++)
 	{
