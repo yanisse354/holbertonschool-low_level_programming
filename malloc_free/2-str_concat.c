@@ -35,7 +35,7 @@ size_t my_strlen(char *str)
 }
 
 char *str_concat(char *s1, char *s2)
-{	
+{
 	size_t i = 0;
 	size_t j = 0;
 	char *result;
