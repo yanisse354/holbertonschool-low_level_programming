@@ -8,15 +8,6 @@
 #include <string.h>
 
 /**
- * str_concat -  function that concatenates two strings.
- * @s1: first string
- * @s2: seconde string
- *
- * Return: pointer should point to a newly allocated space in memory
- * NULL on failure
- */
-
-/**
  * my_strlen - calcule la longueur d'une chaîne de caractères
  * @str: pointeur vers la chaîne à mesurer
  *
@@ -33,6 +24,15 @@ size_t my_strlen(char *str)
 		len++;
 	return (len);
 }
+
+/**
+ * str_concat -  function that concatenates two strings.
+ * @s1: first string
+ * @s2: seconde string
+ *
+ * Return: pointer should point to a newly allocated space in memory
+ * NULL on failure
+ */
 
 char *str_concat(char *s1, char *s2)
 {
