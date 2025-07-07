@@ -14,7 +14,7 @@
  * @c: char in the array
  *
  * Return: NULL if size = 0
- * Return: a pointer to the array, or NULL if it fails
+ * a pointer to the array, or NULL if it fails
  */
 
 char *create_array(unsigned int size, char c)
