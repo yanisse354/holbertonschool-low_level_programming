@@ -1,0 +1,45 @@
+/*
+ * File: 1-strdup.c
+ * Auth: mohammed
+ */
+
+#include "main.h"
+#include <stdlib.h>
+#include <stddef.h>
+
+/**
+ * _strdup - Write a function that returns a pointer to a newly allocated space in memory,
+ * which contains a copy of the string given as a parameter.
+ * @str: the chaine character to duplicate
+ *
+ * Return: NULL if str = NUL
+ * NULL if insufficient memory was available
+ */
+
+char *_strdup(char *str)
+{
+	unsigned int lenght = 0;
+	char *copy;
+	unsigned int i = 0;
+
+	if (str == 0)
+	{
+		return (NULL);
+	}
+
+	while (str[lenght] != '\0')
+	{
+		lenght++;
+	}
+
+	copy = malloc(sizeof(char) * (lenght + 1));
+
+	for (i = 0; i < lenght; i++)
+	{
+		copy[i] = str[i];
+	}
+
+	copy[lenght] = '\0';
+
+	return (copy);
+}
