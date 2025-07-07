@@ -46,5 +46,4 @@ char *_strdup(char *str)
 
 	copy[lenght] = '\0';
 
-	return (copy);
-}
+	return (copy);}
