@@ -7,7 +7,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-/*str_concat -  function that concatenates two strings.
+/**
+ * str_concat -  function that concatenates two strings.
  * @s1: first string
  * @s2: seconde string
  *
